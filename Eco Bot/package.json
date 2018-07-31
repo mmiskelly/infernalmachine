@@ -1,0 +1,31 @@
+{
+  "name": "ecobot",
+  "version": "0.0.1",
+  "description": "the bot to end all bots",
+  "engines": {
+    "node": "8.11.3"
+  },
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "node test.js"
+  },
+  "dependencies": {
+    "discord.js": "^11.3.2",
+    "moment": "^2.22.2"
+  },
+  "devDependencies": {
+    "request": "^2.81.0",
+    "tape": "^4.7.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mmiskelly/infernalmachine"
+  },
+  "keywords": [
+    "node",
+    "heroku",
+    "express"
+  ],
+  "license": "MIT"
+}
